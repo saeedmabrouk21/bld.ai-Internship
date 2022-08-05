@@ -84,13 +84,15 @@ a h3 {
   }
 
   form{
-    width: 100%;
+    width: 80%;
     text-align: left;
+    
     /* max-width: 86%; */
   }
   form button {
-    margin-left: 0.0rem;
-    margin-top: 0.3rem;
+    padding: 0;
+    margin-left: 0.8rem;
+    margin-top: 0.0rem;
   }
   form input {
     width: 70%;
@@ -121,6 +123,8 @@ a h3 {
 }
 .navigationBar button {
   font-size: 0.9rem;
+  /* width: 5rem; */
+  
 }
 .signup {
   background-color: black;
@@ -198,12 +202,8 @@ section {
   flex-direction: column;
 }
 .searchBar {
-  /* height: 00%;  */
-  width: 50%;
-  /* height: 2%; */
-  /* padding-right: 8px; */
-  /* padding-left: 6px; */
-  /* margin-left: 0; */
+  width: 40%;
+
   border-radius: 15rem;
   border: black 1px solid;
 }
@@ -243,6 +243,23 @@ section {
     display: none;
   }
 
+
+   
+  .smallSpace{
+    flex-grow: 2;
+    /* background-color:red; */
+  }
+
+
+
+
+
+
+
+
+
+   /* ? */
+
 @media screen and (max-width: 800px) {
   .alarmphoto {
     width: 15rem;
@@ -254,11 +271,10 @@ section {
     display: block;
     font-size: 2rem;
   }
- 
- 
   .menuItem {
     display: none;
   }
+
 
   .headpar {
     width: 70%;
@@ -293,10 +309,11 @@ section {
   .menuItemItem {
     display: none;
   }
+  
 }
 
 @media screen and (max-width: 1500px) {
   .searchBar {
-    width: 28%;
+    width: 23%;
   }
 }
